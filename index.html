@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="stylesheet" href="./resources/ol.css">
+        <link rel="stylesheet" href="resources/fontawesome-all.min.css">
+        <link rel="stylesheet" href="./resources/ol-layerswitcher.css">
+        <link rel="stylesheet" href="./resources/qgis2web.css">
+		
+		
+		<link rel="stylesheet" href="./styles/style.css" type="text/css">
+		
+<style>
+.search-layer {
+  top: 65px;
+  left: .5em;
+}
+.ol-touch .search-layer {
+  top: 80px;
+}
+</style>
+        <style>
+        html, body {
+            background-color: #ffffff;
+        }
+        .ol-control button {
+            background-color: #f8f8f8 !important;
+            color: #000000 !important;
+            border-radius: 0px !important;
+        }
+        .ol-zoom, .geolocate, .gcd-gl-control .ol-control {
+            background-color: rgba(255,255,255,.4) !important;
+            padding: 3px !important;
+        }
+        .ol-scale-line {
+            background: none !important;
+        }
+        .ol-scale-line-inner {
+            border: 2px solid #f8f8f8 !important;
+            border-top: none !important;
+            background: rgba(255, 255, 255, 0.5) !important;
+            color: black !important;
+        }
+        </style>
+
+
+        <style>
+        #map {
+            width: 900px;
+            height: 600px;
+            padding: 0;
+            margin: 0;
+        }
+        </style>
+		
+		
+        <title></title>
+    </head>
+    <body>
+
+		<h1 id="title">[SITE UNDER CONSTRUCTION]</h1>
+		<p id="shortdesc">
+			Welcome on intelcarto, we're sorry but we'll be back soon.<br />
+			We actually work hard to promote our latest product.<br />
+			We deliver Z datas as vector isolines wherever you need in the world beetween 50°N to 50°S.<br />
+			Many first-rate benefits can be derived from the use of elevation data, especially over large areas of land.<br />
+			Route planning tools will never give optimum results in complex regions if they ignore the slopes to which vehicles are subjected.<br />
+			The flood risk prediction has continued for 40 years using the same methods without taking into account the precise topography of the catchment basins and areas of obstructions identified.<br />
+			And this is only the most visible part of what the world can extract from the data obtained from new technologies to provide the planning tools for an effectively sustainable development.<br />
+			We are here to promote the use of this complex and intelligent data.<br />
+			After two centuries of producing data for military purposes, flat and inert, we are convinced that this is the right way to work in a finished world with 70 million displaced people, to promote peace and reconstruction.<br />
+			Thank you for your time and please feel free to ask all your questions at intelcarto@gmail.com.
+		</p>
+        
+		<div id="map">
+            <div id="popup" class="ol-popup">
+                <a href="#" id="popup-closer" class="ol-popup-closer"></a>
+                <div id="popup-content"></div>
+            </div>
+        </div>                                                               
+        
+		<div id="docs">
+			<p>This example uses the GeoJSON format.</p><br />
+			
+			<p>PUBLICATIONS.<br />
+			2010 « Live road monitoring project », WFP, Logistic Cluster, Logbase, Port aux Princes.<br />
+			2005 « Utilisation des technologies GPS dans l'élaboration des réseaux. » Vinci innovation.<br />
+			2004 « Application de gestion des DR/DICT pour la protection des réseaux… » Mairie de Cosnes.<br />
+			1999 « Gestion de bases de données relatives aux départs de feux de forêts. », ESRI 1999.<br />
+			1999 « Analysis of the occurrence of fire patterns in a limited area. ». Delfi Symposium, Athens.<br />
+			1997 « Determinating a satellite risk index of forest fire occurrence in summer in the Mediterranean area. » Study course on wildfire management, Marathon, Grece, 6-14th October.<br />
+			1997 1995 « Analyse par ACP du fichier de pression reconstitué sur 100 ans (Royal Météorological Society) à 500 Hpa sur l'Atlantique Nord. », calcul et cartographie sous SAS..<br />
+			1994 « Analyse des remontées polaires ou " friagem " sur le Brésil par ACP sous Stat-Itcf ( cemagref-engref) sur 15 ans (1978, 1993). »
+			</p>
+		</div>
+
+		<script src="resources/qgis2web_expressions.js"></script>
+        <script src="resources/polyfills.js"></script>
+        <script src="./resources/functions.js"></script>
+        <script src="./resources/ol.js"></script>
+        <script src="./resources/ol-layerswitcher.js"></script>
+        <script src="layers/Reseaux_1.js"></script><script src="layers/Chambres_2.js"></script>
+        <script src="styles/Reseaux_1_style.js"></script><script src="styles/Chambres_2_style.js"></script>
+        <script src="./layers/layers.js" type="text/javascript"></script> 
+        <script src="./resources/Autolinker.min.js"></script>
+        <script src="./resources/qgis2web.js"></script>
+    </body>
+</html>
